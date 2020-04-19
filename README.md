@@ -1,7 +1,7 @@
-# Read Me for {{projecttitle}} 
+# Read Me for H9-README-Generator 
 
 
-![Project Image]({{imageurl}})
+![Project Image](https:&#x2F;&#x2F;avatars2.githubusercontent.com&#x2F;u&#x2F;58061708?v&#x3D;4)
 
 
 ---
@@ -9,7 +9,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me for {{projecttitle}}](#read-me-for-projecttitle)
+- [Read Me for H9-README-Generator](#read-me-for-projecttitle)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -27,13 +27,13 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-{{description}}
-[This is a link to the gitHub repository]({{githublink}})
+Its a README generator, based on manual entery data + some data that is automatically pulled from GitHUB
+[This is a link to the gitHub repository](https:&#x2F;&#x2F;github.com&#x2F;raed-ra&#x2F;H9-README-Generator)
 
 #### Technologies
 
-- Technology 1: {{Tech1}}
-- Technology 2: {{Tech2}}
+- Technology 1: Classes
+- Technology 2: ASYNC functions
 
 [Back To The Top](#read-me-template)
 
@@ -41,7 +41,7 @@ You're sections headers will be used to reference location of destination.
 
 ## How To Use (Live link on gitHub)
 
-[This is a link to the live gitHub link]({{livelink}})
+[This is a link to the live gitHub link](https:&#x2F;&#x2F;raed-ra.github.io&#x2F;H9-README-Generator)
 
 #### Installation
 
@@ -50,13 +50,13 @@ You're sections headers will be used to reference location of destination.
 #### Usage
 
 ```html
-    <p>dummy code</p> : {{usage}}
+    <p>dummy code</p> : 1 download
 ```
 [Back To The Top](#read-me-template)
 
 ## Test
 
-How is Testing performed: {{testing}}
+How is Testing performed: JEST
 
 [Back To The Top](#read-me-template)
 
@@ -69,7 +69,7 @@ How is Testing performed: {{testing}}
 
 ## License
 
-MIT License : {{license}}![Project license badge]({{badge}})
+MIT License : MIT![Project license badge](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;License-MIT-green)
 
 Copyright (c) [2017] [James Q Quick]
 
@@ -97,15 +97,15 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick]({{author}})
+- Twitter - [@jamesqquick](raed.twitter.com)
 - Website - [James Q Quick](https://jamesqquick.com)
 
 ## Contributors & contributions
 
-{{contributors}}
+[object Object]
 
 ## Number of commits (for every contributor)
 
-{{committers}}
+[object Object]
 
 [Back To The Top](#read-me-template)

@@ -1,7 +1,7 @@
-# Read Me for H9-README-Generator 
+# Read Me for {{projecttitle}} 
 
 
-![Project Image](https:&#x2F;&#x2F;avatars2.githubusercontent.com&#x2F;u&#x2F;58061708?v&#x3D;4)
+![Project Image]({{imageurl}})
 
 
 ---
@@ -9,7 +9,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me for H9-README-Generator](#read-me-for-projecttitle)
+- [Read Me for {{projecttitle}}](#read-me-for-projecttitle)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -27,13 +27,13 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-sfas
-[This is a link to the gitHub repository](https:&#x2F;&#x2F;github.com&#x2F;raed-ra&#x2F;H9-README-Generator)
+{{description}}
+[This is a link to the gitHub repository]({{githublink}})
 
 #### Technologies
 
-- Technology 1: sfas
-- Technology 2: asdfas
+- Technology 1: {{Tech1}}
+- Technology 2: {{Tech2}}
 
 [Back To The Top](#read-me-template)
 
@@ -41,7 +41,7 @@ sfas
 
 ## How To Use (Live link on gitHub)
 
-[This is a link to the live gitHub link](https:&#x2F;&#x2F;raed-ra.github.io&#x2F;H9-README-Generator)
+[This is a link to the live gitHub link]({{livelink}})
 
 #### Installation
 
@@ -50,13 +50,13 @@ sfas
 #### Usage
 
 ```html
-    <p>dummy code</p> : sdfas
+    <p>dummy code</p> : {{usage}}
 ```
 [Back To The Top](#read-me-template)
 
 ## Test
 
-How is Testing performed: sfdafsa
+How is Testing performed: {{testing}}
 
 [Back To The Top](#read-me-template)
 
@@ -69,7 +69,7 @@ How is Testing performed: sfdafsa
 
 ## License
 
-MIT License : safas![Project license badge](assf)
+MIT License : {{license}}![Project license badge]({{badge}})
 
 Copyright (c) [2017] [James Q Quick]
 
@@ -97,15 +97,15 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](asfa)
+- Twitter - [@jamesqquick]({{author}})
 - Website - [James Q Quick](https://jamesqquick.com)
 
 ## Contributors & contributions
 
-[object Object]
+{{contributors}}
 
 ## Number of commits (for every contributor)
 
-
+{{committers}}
 
 [Back To The Top](#read-me-template)

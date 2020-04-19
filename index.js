@@ -36,11 +36,11 @@ async function getInfo() {
         const committers = repo.commitdata
         let data = { description, Tech1, Tech2, testing, usage, license, badge, author , projecttitle, imageurl, githublink, livelink, contributors, committers};
         //console.log(data)
-        let template = (await readFileAsync(`./README.md`)).toString()
+        let template = (await readFileAsync(`./READMEtemplate.md`)).toString()
         //console.log(template)
         let githubMdfile = render(template, data)
         //console.log(githubMdfile);
-        writeFileAsync(`./${repo.reponame}.md`,githubMdfile)
+        writeFileAsync(`./README.md`,githubMdfile)
         writeFileAsync(`./githubData.json`,JSON.stringify(githubdata.data))
         console.log(`mdfile for ${repo.reponame} is saved!`)
     }   
