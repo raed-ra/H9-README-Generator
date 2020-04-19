@@ -1,4 +1,4 @@
-# Read Me for Proj1-cryptoKing 
+# Read Me for H9-README-Generator 
 
 
 ![Project Image](https:&#x2F;&#x2F;avatars2.githubusercontent.com&#x2F;u&#x2F;58061708?v&#x3D;4)
@@ -9,7 +9,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me for Proj1-cryptoKing](#read-me-for-projecttitle)
+- [Read Me for H9-README-Generator](#read-me-for-projecttitle)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -27,13 +27,13 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-dsfsafasf
-[This is a link to the gitHub repository](https:&#x2F;&#x2F;github.com&#x2F;raed-ra&#x2F;Proj1-cryptoKing)
+sfas
+[This is a link to the gitHub repository](https:&#x2F;&#x2F;github.com&#x2F;raed-ra&#x2F;H9-README-Generator)
 
 #### Technologies
 
-- Technology 1: qrewe
-- Technology 2: sdfas
+- Technology 1: sfas
+- Technology 2: asdfas
 
 [Back To The Top](#read-me-template)
 
@@ -41,7 +41,7 @@ dsfsafasf
 
 ## How To Use (Live link on gitHub)
 
-[This is a link to the live gitHub link](https:&#x2F;&#x2F;raed-ra.github.io&#x2F;Proj1-cryptoKing)
+[This is a link to the live gitHub link](https:&#x2F;&#x2F;raed-ra.github.io&#x2F;H9-README-Generator)
 
 #### Installation
 
@@ -50,13 +50,13 @@ dsfsafasf
 #### Usage
 
 ```html
-    <p>dummy code</p> : asfasfsa
+    <p>dummy code</p> : sdfas
 ```
 [Back To The Top](#read-me-template)
 
 ## Test
 
-How is Testing performed: safassfas
+How is Testing performed: sfdafsa
 
 [Back To The Top](#read-me-template)
 
@@ -69,7 +69,7 @@ How is Testing performed: safassfas
 
 ## License
 
-MIT License : MIT![Project license badge](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;License-MIT-green)
+MIT License : safas![Project license badge](assf)
 
 Copyright (c) [2017] [James Q Quick]
 
@@ -97,7 +97,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](tsfsasafsafas)
+- Twitter - [@jamesqquick](asfa)
 - Website - [James Q Quick](https://jamesqquick.com)
 
 ## Contributors & contributions
@@ -106,6 +106,6 @@ SOFTWARE.
 
 ## Number of commits (for every contributor)
 
-[object Object]
+
 
 [Back To The Top](#read-me-template)

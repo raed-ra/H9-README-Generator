@@ -21,13 +21,13 @@ async function getInfo() {
             repos[repo.name] = repo.fullname
         })
         const imageurl = githubdata.data[0].owner.avatar_url;
-        console.log(imageurl)
+        //console.log(imageurl)
         const targetrepo = await whichRepo(repos);
         //console.log(targetrepo.repochoice);
         const repo = new repoObject(username,targetrepo.repochoice)
         await repo.fetchContributors()
         await repo.repostats()
-        console.log(repo)
+        //console.log(repo)
         const { description, Tech1, Tech2, testing, usage, license, badge, author  } = await userdata();
         const projecttitle = repo.reponame
         const githublink = repo.repoURL
