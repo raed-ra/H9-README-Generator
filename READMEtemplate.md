@@ -97,8 +97,8 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick]({{author}})
-- Website - [James Q Quick](https://jamesqquick.com)
+- Twitter - [@RaedR]({{author}})
+- Website - [Raed R](https://jamesqquick.com)
 
 ## Contributors & contributions
 

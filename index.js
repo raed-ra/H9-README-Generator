@@ -32,8 +32,8 @@ async function getInfo() {
         const projecttitle = repo.reponame
         const githublink = repo.repoURL
         const livelink = repo.repoliveURL
-        const contributors = repo.contributionsdata
-        const committers = repo.commitdata
+        const contributors = createMdTable(repo.contributionsdata)
+        const committers = createMdTable(repo.commitdata)
         let data = { description, Tech1, Tech2, testing, usage, license, badge, author , projecttitle, imageurl, githublink, livelink, contributors, committers};
         //console.log(data)
         let template = (await readFileAsync(`./READMEtemplate.md`)).toString()
@@ -48,6 +48,27 @@ async function getInfo() {
         console.log(err)
     }
 };
+
+function createMdTable(obj){
+        let result = ""
+        // |   h1   |  h2  |
+        let headings = Object.keys(obj)
+        headings.forEach(function(heading){
+            result += `|   ${heading}   `
+        })
+        result += '|\n'
+        // |-----|---|
+        headings.forEach(function(heading){
+            result += `|-------`
+        })
+        result += '|\n'
+        let values = Object.values(obj)
+        values.forEach(function(value){
+            result += `|     ${value}      `
+        })
+        result += '|\n'
+        return result
+    }
 
 function askUsername() {
     return inquirer.prompt([

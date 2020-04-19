@@ -9,7 +9,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me for H9-README-Generator](#read-me-for-projecttitle)
+- [Read Me for H9-README-Generator](#read-me-for-h9-readme-generator)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -32,8 +32,8 @@ Its a README generator, based on manual entery data + some data that is automati
 
 #### Technologies
 
-- Technology 1: Classes
-- Technology 2: ASYNC functions
+- Technology 1: ASYNC functions
+- Technology 2: Classes
 
 [Back To The Top](#read-me-template)
 
@@ -50,7 +50,7 @@ Its a README generator, based on manual entery data + some data that is automati
 #### Usage
 
 ```html
-    <p>dummy code</p> : 1 download
+    <p>dummy code</p> : 2 downloads
 ```
 [Back To The Top](#read-me-template)
 
@@ -97,15 +97,21 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](raed.twitter.com)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Twitter - [@RaedR](Raed.twitter.com)
+- Website - [Raed R](https://jamesqquick.com)
 
 ## Contributors & contributions
 
-[object Object]
+|   raed-ra   |
+|-------------|
+|      4      |
+
 
 ## Number of commits (for every contributor)
 
-[object Object]
+|   raed-ra   |
+|-------------|
+|      2      |
+
 
 [Back To The Top](#read-me-template)
