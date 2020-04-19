@@ -20,14 +20,21 @@ async function getInfo() {
         githubdata.data.forEach((repo,index) => {
             repos[repo.name] = repo.fullname
         })
+        const imageurl = githubdata.data[0].owner.avatar_url;
+        console.log(imageurl)
         const targetrepo = await whichRepo(repos);
         //console.log(targetrepo.repochoice);
         const repo = new repoObject(username,targetrepo.repochoice)
         await repo.fetchContributors()
         await repo.repostats()
         console.log(repo)
-        const { description, Tech1, Tech2, APIref, license, author } = await userdata();
-        let data = { description, Tech1, Tech2, APIref, license, author };
+        const { description, Tech1, Tech2, testing, usage, license, badge, author  } = await userdata();
+        const projecttitle = repo.reponame
+        const githublink = repo.repoURL
+        const livelink = repo.repoliveURL
+        const contributors = repo.contributionsdata
+        const committers = repo.commitdata
+        let data = { description, Tech1, Tech2, testing, usage, license, badge, author , projecttitle, imageurl, githublink, livelink, contributors, committers};
         //console.log(data)
         let template = (await readFileAsync(`./README.md`)).toString()
         //console.log(template)
@@ -65,7 +72,7 @@ function whichRepo(repos) {
 
 function getGithubdata(username) {
     console.log({username})
-    const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
+    const queryUrl = `https://api.github.com/users/${username}/repos`;
     return axios.get(queryUrl)
 }
 
@@ -88,8 +95,13 @@ function userdata(question) {
         },
         {
             type: 'input',
-            name: 'APIref',
-            message: 'What API references used?',
+            name: 'testing',
+            message: 'How is testing performed?',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Whats the usage?',
         },
         {
             type: 'input',
@@ -98,9 +110,18 @@ function userdata(question) {
         },
         {
             type: 'input',
+            name: 'badge',
+            message: 'Include license badge?',
+            default: 'https://img.shields.io/badge/License-MIT-green'
+        },
+        {
+            type: 'input',
             name: 'author',
             message: 'What is the author twitter address?',
         },
     ]);
 }
+
+
+
 

@@ -1,32 +1,34 @@
-# Read Me Template 
+# Read Me for {{projecttitle}} 
 
 
-![Project Image](project-image-url)
+![Project Image]({{imageurl}})
 
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me Template](#read-me-template)
+- [Read Me for {{projecttitle}}](#read-me-for-projecttitle)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
-  - [How To Use](#how-to-use)
+  - [How To Use (Live link on gitHub)](#how-to-use-live-link-on-github)
       - [Installation](#installation)
-      - [API Reference](#api-reference)
+      - [Usage](#usage)
+  - [Test](#test)
   - [References](#references)
   - [License](#license)
   - [Author Info](#author-info)
   - [Contributors & contributions](#contributors--contributions)
+  - [Number of commits (for every contributor)](#number-of-commits-for-every-contributor)
 
 ---
 
 ## Description
 
 {{description}}
+[This is a link to the gitHub repository]({{githublink}})
 
 #### Technologies
 
@@ -37,17 +39,25 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-## How To Use
+## How To Use (Live link on gitHub)
+
+[This is a link to the live gitHub link]({{livelink}})
 
 #### Installation
 
 
 
-#### API Reference
+#### Usage
 
 ```html
-    <p>dummy code</p> : {{APIref}}
+    <p>dummy code</p> : {{usage}}
 ```
+[Back To The Top](#read-me-template)
+
+## Test
+
+How is Testing performed: {{testing}}
+
 [Back To The Top](#read-me-template)
 
 ---
@@ -59,7 +69,7 @@ You're sections headers will be used to reference location of destination.
 
 ## License
 
-MIT License : {{license}}
+MIT License : {{license}}![Project license badge]({{badge}})
 
 Copyright (c) [2017] [James Q Quick]
 
@@ -93,5 +103,9 @@ SOFTWARE.
 ## Contributors & contributions
 
 {{contributors}}
+
+## Number of commits (for every contributor)
+
+{{committers}}
 
 [Back To The Top](#read-me-template)

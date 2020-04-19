@@ -1,53 +1,63 @@
-# Read Me Template 
+# Read Me for Proj1-cryptoKing 
 
 
-![Project Image](project-image-url)
+![Project Image](https:&#x2F;&#x2F;avatars2.githubusercontent.com&#x2F;u&#x2F;58061708?v&#x3D;4)
 
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Read Me Template](#read-me-template)
+- [Read Me for Proj1-cryptoKing](#read-me-for-projecttitle)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
-  - [How To Use](#how-to-use)
+  - [How To Use (Live link on gitHub)](#how-to-use-live-link-on-github)
       - [Installation](#installation)
-      - [API Reference](#api-reference)
+      - [Usage](#usage)
+  - [Test](#test)
   - [References](#references)
   - [License](#license)
   - [Author Info](#author-info)
-  - [Other contributors](#other-contributors)
+  - [Contributors & contributions](#contributors--contributions)
+  - [Number of commits (for every contributor)](#number-of-commits-for-every-contributor)
 
 ---
 
 ## Description
 
-desc1
+dsfsafasf
+[This is a link to the gitHub repository](https:&#x2F;&#x2F;github.com&#x2F;raed-ra&#x2F;Proj1-cryptoKing)
 
 #### Technologies
 
-- Technology 1: tech1
-- Technology 2: tech2
+- Technology 1: qrewe
+- Technology 2: sdfas
 
 [Back To The Top](#read-me-template)
 
 ---
 
-## How To Use
+## How To Use (Live link on gitHub)
+
+[This is a link to the live gitHub link](https:&#x2F;&#x2F;raed-ra.github.io&#x2F;Proj1-cryptoKing)
 
 #### Installation
 
 
 
-#### API Reference
+#### Usage
 
 ```html
-    <p>dummy code</p> : API ref
+    <p>dummy code</p> : asfasfsa
 ```
+[Back To The Top](#read-me-template)
+
+## Test
+
+How is Testing performed: safassfas
+
 [Back To The Top](#read-me-template)
 
 ---
@@ -59,7 +69,7 @@ desc1
 
 ## License
 
-MIT License : MI
+MIT License : MIT![Project license badge](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;License-MIT-green)
 
 Copyright (c) [2017] [James Q Quick]
 
@@ -87,11 +97,15 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https:&#x2F;&#x2F;raed.twitter.com)
+- Twitter - [@jamesqquick](tsfsasafsafas)
 - Website - [James Q Quick](https://jamesqquick.com)
 
-## Other contributors
+## Contributors & contributions
 
+[object Object]
 
+## Number of commits (for every contributor)
+
+[object Object]
 
 [Back To The Top](#read-me-template)
